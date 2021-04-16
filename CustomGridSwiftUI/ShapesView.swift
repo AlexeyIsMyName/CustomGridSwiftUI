@@ -21,6 +21,7 @@ struct ShapesView: View {
                     award.awardView
                     Text(award.title)
                 }
+                .padding()
                 .frame(width: itemSize, height: itemSize)
             }
             .navigationBarTitle("Shapes")

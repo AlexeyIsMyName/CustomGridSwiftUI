@@ -11,7 +11,7 @@ import SwiftUI
 struct CustomGridSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabViews()
         }
     }
 }

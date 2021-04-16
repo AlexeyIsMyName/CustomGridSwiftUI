@@ -8,18 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		E72A8545262A30790060F4C6 /* CustomGridSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72A8544262A30790060F4C6 /* CustomGridSwiftUIApp.swift */; };
-		E72A8547262A30790060F4C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72A8546262A30790060F4C6 /* ContentView.swift */; };
 		E72A8549262A307B0060F4C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E72A8548262A307B0060F4C6 /* Assets.xcassets */; };
 		E72A854C262A307B0060F4C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E72A854B262A307B0060F4C6 /* Preview Assets.xcassets */; };
+		E72A855C262A315B0060F4C6 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72A8554262A315A0060F4C6 /* ShapesView.swift */; };
+		E72A855D262A315B0060F4C6 /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72A8555262A315A0060F4C6 /* CurvesView.swift */; };
+		E72A855E262A315B0060F4C6 /* TabViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72A8556262A315A0060F4C6 /* TabViews.swift */; };
+		E72A855F262A315B0060F4C6 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72A8557262A315A0060F4C6 /* AnimationView.swift */; };
+		E72A8560262A315B0060F4C6 /* HexadecagonStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72A8558262A315B0060F4C6 /* HexadecagonStarView.swift */; };
+		E72A8561262A315B0060F4C6 /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72A8559262A315B0060F4C6 /* GradientRectangles.swift */; };
+		E72A8562262A315B0060F4C6 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72A855A262A315B0060F4C6 /* PathView.swift */; };
+		E72A8563262A315B0060F4C6 /* MyShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72A855B262A315B0060F4C6 /* MyShapeView.swift */; };
+		E72A8567262A31980060F4C6 /* HypocycloidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72A8566262A31980060F4C6 /* HypocycloidView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E72A8541262A30790060F4C6 /* CustomGridSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomGridSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E72A8544262A30790060F4C6 /* CustomGridSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGridSwiftUIApp.swift; sourceTree = "<group>"; };
-		E72A8546262A30790060F4C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E72A8548262A307B0060F4C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E72A854B262A307B0060F4C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E72A854D262A307B0060F4C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E72A8554262A315A0060F4C6 /* ShapesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
+		E72A8555262A315A0060F4C6 /* CurvesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
+		E72A8556262A315A0060F4C6 /* TabViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViews.swift; sourceTree = "<group>"; };
+		E72A8557262A315A0060F4C6 /* AnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		E72A8558262A315B0060F4C6 /* HexadecagonStarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexadecagonStarView.swift; sourceTree = "<group>"; };
+		E72A8559262A315B0060F4C6 /* GradientRectangles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
+		E72A855A262A315B0060F4C6 /* PathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		E72A855B262A315B0060F4C6 /* MyShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyShapeView.swift; sourceTree = "<group>"; };
+		E72A8566262A31980060F4C6 /* HypocycloidView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HypocycloidView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +69,15 @@
 			isa = PBXGroup;
 			children = (
 				E72A8544262A30790060F4C6 /* CustomGridSwiftUIApp.swift */,
-				E72A8546262A30790060F4C6 /* ContentView.swift */,
+				E72A8556262A315A0060F4C6 /* TabViews.swift */,
+				E72A8557262A315A0060F4C6 /* AnimationView.swift */,
+				E72A8555262A315A0060F4C6 /* CurvesView.swift */,
+				E72A8559262A315B0060F4C6 /* GradientRectangles.swift */,
+				E72A8566262A31980060F4C6 /* HypocycloidView.swift */,
+				E72A855A262A315B0060F4C6 /* PathView.swift */,
+				E72A855B262A315B0060F4C6 /* MyShapeView.swift */,
+				E72A8558262A315B0060F4C6 /* HexadecagonStarView.swift */,
+				E72A8554262A315A0060F4C6 /* ShapesView.swift */,
 				E72A8548262A307B0060F4C6 /* Assets.xcassets */,
 				E72A854D262A307B0060F4C6 /* Info.plist */,
 				E72A854A262A307B0060F4C6 /* Preview Content */,
@@ -138,8 +162,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E72A8547262A30790060F4C6 /* ContentView.swift in Sources */,
+				E72A8561262A315B0060F4C6 /* GradientRectangles.swift in Sources */,
+				E72A8560262A315B0060F4C6 /* HexadecagonStarView.swift in Sources */,
+				E72A855E262A315B0060F4C6 /* TabViews.swift in Sources */,
+				E72A8562262A315B0060F4C6 /* PathView.swift in Sources */,
+				E72A8567262A31980060F4C6 /* HypocycloidView.swift in Sources */,
 				E72A8545262A30790060F4C6 /* CustomGridSwiftUIApp.swift in Sources */,
+				E72A855F262A315B0060F4C6 /* AnimationView.swift in Sources */,
+				E72A855D262A315B0060F4C6 /* CurvesView.swift in Sources */,
+				E72A8563262A315B0060F4C6 /* MyShapeView.swift in Sources */,
+				E72A855C262A315B0060F4C6 /* ShapesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

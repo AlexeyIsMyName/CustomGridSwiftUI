@@ -13,32 +13,82 @@ struct Award {
     let title: String
     let awarded: Bool
     
-    static func getAwards() -> [Award] {
+    static func getAwards(withSize size: CGFloat) -> [Award] {
         [
             Award(
-                awardView: AnyView(MyShapeView(width: 150, height: 150)),
+                awardView: AnyView(MyShapeView(width: size, height: size)),
                 title: "Gradient Rectangles",
-                awarded: true
+                awarded: Bool.random()
             ),
             Award(
-                awardView: AnyView(GradientRectangles(width: 150, height: 150)),
+                awardView: AnyView(GradientRectangles(width: size, height: size)),
                 title: "Gradient Rectangles",
-                awarded: true
+                awarded: Bool.random()
             ),
             Award(
-                awardView: AnyView(PathView(width: 150, height: 150)),
+                awardView: AnyView(PathView(width: size, height: size)),
                 title: "Path View",
-                awarded: true
+                awarded: Bool.random()
             ),
             Award(
-                awardView: AnyView(CurvesView(width: 150, height: 150)),
+                awardView: AnyView(CurvesView(width: size, height: size)),
                 title: "Curves View",
-                awarded: true
+                awarded: Bool.random()
             ),
             Award(
-                awardView: AnyView(HypocycloidView(width: 150, height: 150, showSliders: false)),
+                awardView: AnyView(HypocycloidView(width: size, height: size, showSliders: false)),
                 title: "Hypocycloid View",
-                awarded: true
+                awarded: Bool.random()
+            ),
+            Award(
+                awardView: AnyView(MyShapeView(width: size, height: size)),
+                title: "Gradient Rectangles",
+                awarded: Bool.random()
+            ),
+            Award(
+                awardView: AnyView(GradientRectangles(width: size, height: size)),
+                title: "Gradient Rectangles",
+                awarded: Bool.random()
+            ),
+            Award(
+                awardView: AnyView(PathView(width: size, height: size)),
+                title: "Path View",
+                awarded: Bool.random()
+            ),
+            Award(
+                awardView: AnyView(CurvesView(width: size, height: size)),
+                title: "Curves View",
+                awarded: Bool.random()
+            ),
+            Award(
+                awardView: AnyView(HypocycloidView(width: size, height: size, showSliders: false)),
+                title: "Hypocycloid View",
+                awarded: Bool.random()
+            ),
+            Award(
+                awardView: AnyView(MyShapeView(width: size, height: size)),
+                title: "Gradient Rectangles",
+                awarded: Bool.random()
+            ),
+            Award(
+                awardView: AnyView(GradientRectangles(width: size, height: size)),
+                title: "Gradient Rectangles",
+                awarded: Bool.random()
+            ),
+            Award(
+                awardView: AnyView(PathView(width: size, height: size)),
+                title: "Path View",
+                awarded: Bool.random()
+            ),
+            Award(
+                awardView: AnyView(CurvesView(width: size, height: size)),
+                title: "Curves View",
+                awarded: Bool.random()
+            ),
+            Award(
+                awardView: AnyView(HypocycloidView(width: size, height: size, showSliders: false)),
+                title: "Hypocycloid View",
+                awarded: Bool.random()
             )
         ]
     }

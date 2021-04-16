@@ -58,7 +58,7 @@ struct HypocycloidView: View {
                 .offset(x: geometry.size.width / 2.0, y: geometry.size.height / 2.0)
                 .stroke(color, lineWidth: 2)
             }
-//            .frame(width: width, height: height)
+            .frame(width: width, height: height)
 //
 //            if showSliders {
 //                Slider(value: $bigR, in: 1...10)

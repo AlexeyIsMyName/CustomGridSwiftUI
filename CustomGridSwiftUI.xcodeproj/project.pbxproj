@@ -21,6 +21,7 @@
 		E72A8567262A31980060F4C6 /* HypocycloidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72A8566262A31980060F4C6 /* HypocycloidView.swift */; };
 		E72A856B262A32E10060F4C6 /* CustomGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72A856A262A32E10060F4C6 /* CustomGridView.swift */; };
 		E72A856E262A34390060F4C6 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72A856D262A34390060F4C6 /* Award.swift */; };
+		E7D84615262A475300867003 /* AwardCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D84614262A475300867003 /* AwardCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		E72A8566262A31980060F4C6 /* HypocycloidView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HypocycloidView.swift; sourceTree = "<group>"; };
 		E72A856A262A32E10060F4C6 /* CustomGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGridView.swift; sourceTree = "<group>"; };
 		E72A856D262A34390060F4C6 /* Award.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		E7D84614262A475300867003 /* AwardCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				E72A855B262A315B0060F4C6 /* MyShapeView.swift */,
 				E72A8558262A315B0060F4C6 /* HexadecagonStarView.swift */,
 				E72A8554262A315A0060F4C6 /* ShapesView.swift */,
+				E7D84614262A475300867003 /* AwardCellView.swift */,
 				E72A856A262A32E10060F4C6 /* CustomGridView.swift */,
 				E72A856D262A34390060F4C6 /* Award.swift */,
 				E72A8548262A307B0060F4C6 /* Assets.xcassets */,
@@ -176,6 +179,7 @@
 				E72A8567262A31980060F4C6 /* HypocycloidView.swift in Sources */,
 				E72A8545262A30790060F4C6 /* CustomGridSwiftUIApp.swift in Sources */,
 				E72A855F262A315B0060F4C6 /* AnimationView.swift in Sources */,
+				E7D84615262A475300867003 /* AwardCellView.swift in Sources */,
 				E72A856B262A32E10060F4C6 /* CustomGridView.swift in Sources */,
 				E72A855D262A315B0060F4C6 /* CurvesView.swift in Sources */,
 				E72A8563262A315B0060F4C6 /* MyShapeView.swift in Sources */,

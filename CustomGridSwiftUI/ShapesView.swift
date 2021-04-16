@@ -8,21 +8,14 @@
 import SwiftUI
 
 struct ShapesView: View {
-    let awards = Award.getAwards()
-    
-    var activeAward: [Award] {
-        awards.filter { $0.awarded }
-    }
+    let awards = Award.getAwards(withSize: 130)
     
     var body: some View {
         NavigationView {
-            CustomGridView(items: activeAward, columns: 2) { itemSize, award in
-                VStack {
-                    award.awardView
-                    Text(award.title)
-                }
-                .padding()
-                .frame(width: itemSize, height: itemSize)
+            CustomGridView(items: awards, columns: 2) { itemSize, award in
+                AwardCellView(award: award, fontSize: itemSize / 12)
+                    .padding()
+                    .frame(width: itemSize, height: itemSize)
             }
             .navigationBarTitle("Shapes")
         }

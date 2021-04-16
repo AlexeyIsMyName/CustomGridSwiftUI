@@ -19,17 +19,10 @@ struct AwardCellView: View {
         VStack {
             if award.awarded {
                 award.awardView
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 30)
-                            .stroke(Color.gray, lineWidth: 2)
-                    )
+                    .awarded()
             } else {
                 award.awardView
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 30)
-                            .fill(Color.gray)
-                            .opacity(0.9)
-                    )
+                    .notAwarded()
             }
             Text(text)
                 .font(.system(
@@ -42,13 +35,46 @@ struct AwardCellView: View {
     }
 }
 
+extension View {
+    func awarded() -> some View {
+        modifier(AwardedMod())
+    }
+    
+    func notAwarded() -> some View {
+        modifier(NotAwardedMod())
+    }
+}
+
+struct AwardedMod: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .scaleEffect(0.9)
+            .overlay(
+                RoundedRectangle(cornerRadius: 30)
+                    .stroke(Color.gray, lineWidth: 2)
+            )
+    }
+}
+
+struct NotAwardedMod: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .scaleEffect(0.9)
+            .overlay(
+                RoundedRectangle(cornerRadius: 30)
+                    .fill(Color.gray)
+                    .opacity(0.7)
+            )
+    }
+}
+
 struct AwardCellView_Previews: PreviewProvider {
     static var previews: some View {
         AwardCellView(
             award: Award(
                 awardView: AnyView(HypocycloidView(width: 130, height: 130, showSliders: false)),
                 title: "Hypocycloid View",
-                awarded: true
+                awarded: false
             ),
             fontSize: 15
         )

@@ -59,11 +59,11 @@ struct HypocycloidView: View {
                 .stroke(color, lineWidth: 2)
             }
             .frame(width: width, height: height)
-//
-//            if showSliders {
-//                Slider(value: $bigR, in: 1...10)
-//                Slider(value: $smalR, in: 1...10)
-//            }
+
+            if showSliders {
+                Slider(value: $bigR, in: 1...10)
+                Slider(value: $smalR, in: 1...10)
+            }
         }
     }
 }

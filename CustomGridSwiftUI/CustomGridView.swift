@@ -18,14 +18,14 @@ struct CustomGridView<Content, T>: View where Content: View {
     
     var body: some View {
         GeometryReader { geometry in
-            let sideSize = geometry.size.width / CGFloat(columns)
+            let itemSize = geometry.size.width / CGFloat(columns)
             ScrollView {
                 VStack {
                     ForEach(0...rows, id: \.self) { rowIndex in
                         HStack(spacing: 0) {
                             ForEach(0..<columns) { columnIndex in
                                 if let index = indexFor(row: rowIndex, column: columnIndex) {
-                                    content(sideSize, items[index])
+                                    content(itemSize, items[index])
                                 } else {
                                     Spacer()
                                 }

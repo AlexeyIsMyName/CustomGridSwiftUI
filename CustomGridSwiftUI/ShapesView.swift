@@ -8,16 +8,20 @@
 import SwiftUI
 
 struct ShapesView: View {
+    let awards = Award.getAwards()
+    
+    var activeAward: [Award] {
+        awards.filter { $0.awarded }
+    }
+    
     var body: some View {
         NavigationView {
-            VStack {
-                ScrollView {
-                    MyShapeView(width: 250, height: 250)
-                    HypocycloidView(width: 250, height: 250, showSliders: false)
-                    GradientRectangles(width: 250, height: 250)
-                    PathView(width: 250, height: 250)
-                    CurvesView(width: 250, height: 250)
+            CustomGridView(items: activeAward, columns: 2) { itemSize, award in
+                VStack {
+                    award.awardView
+                    Text(award.title)
                 }
+                .frame(width: itemSize, height: itemSize)
             }
             .navigationBarTitle("Shapes")
         }
